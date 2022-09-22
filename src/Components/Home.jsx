@@ -1,6 +1,5 @@
 import React from 'react'
-import axios from 'axios';
-import Navbar from './Navbar';
+
 
 
 const Home = () => {
@@ -8,8 +7,9 @@ const Home = () => {
 
   return (
     <div className="home-content">
-        <Navbar/>
-        {/* <Body/> */}
+        {/* Navbar Already imoprted */}
+        {/* BODY */}
+
     </div>
   )
 }
